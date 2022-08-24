@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Casey Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+        crossorigin="anonymous" /> 
+
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="PIC1.jpg" alt="LOGO">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="IDK"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="home" class="nav__link">Home</a></li>
+                    <li class="nav__item"> <a href="experience" class="nav__link">My Experience</a></li>
+                    <li class="nav__item"> <a href="about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"> <a href="projects" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I'm <strong>Casey Sytsema</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Dev</p>
+            <img src="pic2.jpg" alt="HEADSHOT" class="into__img">
+        </section> <!-- / Introduction -->
+
+        <!-- My Experience -->
+        <section class="my-experience" id="experience">
+
+            <h2 class="section__title section__title--courses">My Experience</h2>
+
+            <!-- Course Work -->
+            <div class="courses">
+                <h3>Course Work</h3>
+                <p>PARAGRAPH ABOUT COURSES</p>
+            </div> <!-- / Course Work -->
+
+            <!-- Work -->
+            <div class="work">
+                <h3>Work Experience</h3>
+                <p>PARAGRAPH ABOUT WORK EXPERIENCE</p>
+            </div> <!-- / Work -->
+
+            <!-- Languages -->
+            <div class="languages/frameworks">
+                <h3>Languages + Frameworks</h3>
+                <p>PARAGRAPH ABOUT LANGUAGES</p>
+            </div> <!-- / Languages -->
+
+            <a href="experience" class="btn">My Experience</a>
+        </section> <!--  / My Experience -->
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class = "section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle">
+
+            </p>
+            <div class="about-me__body">
+                <p>PARAGRAPH ABOUT ME</p>
+            </div>
+
+            <img src="assets/Casey.jpg" alt="pic standing up">
+
+        </section> <!-- / About Me -->
+
+        <!-- Projects -->
+        <section class="my-projects" id="projects">
+            <h2 class="section__title">My Projects</h2>
+            <p class="section__subtitle"></p>
+
+            <!-- Portofolio item 1-->
+            <div class="portfolio">
+                <a href="#" class="portfolio__item">
+                    <img src="portfolio-1.jpg" alt="portfolio1" class="portfolio__img">
+                </a>
+            </div>
+
+            <!-- Portofolio item 2-->
+            <div class="portfolio">
+                <a href="#" class="portfolio__item">
+                    <img src="portfolio-2.jpg" alt="portfolio2" class="portfolio__img">
+                </a>
+            </div>
+
+            <!-- Portofolio item 3-->
+            <div class="portfolio">
+                <a href="#" class="portfolio__item">
+                    <img src="portfolio-3.jpg" alt="portfolio3" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <footer> <!-- Footer -->
+            <!-- Email link-->
+            <a href="mailto:sytsemacj@gmail.com" class="footer__link">sytsemacj@gmail.com</a>
+
+            <!-- Socials list -->
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://github.com"></a></li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://linkedin.com"></a></li>
+            </ul>
+        </footer>
+
+    </body>
+</html>
